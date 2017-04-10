@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>植物大战僵尸</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="dBody" bgcolor="#008080" oncontextmenu="return false" ondragstart="return false" onselect="return false">
+<!--游戏主界面-->
+<div class="windowFrame" id="dAll">
+    <!--背景图片-->
+    <div id="tGround"></div>
+    <!--出场僵尸显示-->
+    <div id="dZombie"></div>
+    <!--分数牌-->
+    <div id="dTop">
+        <div id="dSunNum">
+            <span id="sSunNum">175</span>
+        </div>
+    </div>
+    <!--草地-->
+    <div id="sod"></div>
+    <!--植物表-->
+    <div id="dCardList">
+        <div id="dCardoPeashooter">
+            <img src="images/PeashooterG.png" alt="">
+            <img src="images/Peashooter.png" alt="" style="visibility: visible">
+            <span id="sSunNum0">100</span>
+        </div>
+    </div>
+    <!--植物-->
+    <div id="dPlants"></div>
+    <!--僵尸-->
+    <div id="dZombies"></div>
+</div>
+<script src="js/start.js"></script>
+<script src="js/sun.js"></script>
+<script src="js/plants.js"></script>
+<script src="js/process.js"></script>
+</body>
+</html>

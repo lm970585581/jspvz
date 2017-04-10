@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 12px "宋体";
+}
+
+.windowFrame {
+    position: absolute;
+    top: 0;
+    width: 900px;
+    height: 600px;
+    background: #000;
+    overflow: hidden;
+    border: 3px outset;
+}
+
+#tGround {
+    position: absolute;
+    width: 1400px;
+    height: 600px;
+    visibility: hidden;
+    z-index: 0;
+}
+#dZombie{
+    position: absolute;
+    width: 335px;
+    height: 600px;
+    left: 1065px;
+    top: 0;
+    z-index: 1;
+}
+#dTop{
+    position: absolute;
+    left:105px;
+    top: 0;
+    height: 35px;
+    width: 123px;
+    visibility: visible;
+    z-index: 1;
+}
+#dSunNum{
+    background: url("../images/interface/SunBack.png") no-repeat;
+    position: absolute;
+    width: 123px;
+    height: 35px;
+}
+#sSunNum{
+    text-align: center;
+    position: absolute;
+    top: 4px;
+    left: 43px;
+    width: 68px;
+    font: 22px Verdana bold;
+}
+#dCardList{
+    position: absolute;
+    left: 3px;
+    width: 100px;
+    overflow: visible;
+    z-index: 254;
+}
+#dCardList div{
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    height: 60px;
+}
+#dCardList img{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+}
+#dCardList span{
+    cursor: pointer;
+    position: absolute;
+    left: 66px;
+    top:40px;
+    width: 34px;
+    height: 20px;
+    font-size: 11pt;
+}
+#dPlants,#dZombies{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index: 2;
+}
+#dPlants div{
+    position: absolute;
+    top: 294px;
+    z-index: 999;
+}
+#dZombies div{
+    position: absolute;
+    top: 226px;
+    z-index: 33;
+}
+#dPlants img{
+    position: absolute;
+}
